@@ -1,4 +1,4 @@
-/* start css reset */
+/* CSS Reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -8,16 +8,16 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 p {
@@ -34,28 +34,22 @@ h1, h2, h3, h4, h5, h6 {
     background: #cacaca;
 }
 
-/* end css reset */
-
 body {
     font-family: 'Noto Sans TC', sans-serif;
-    font-size: 62.5%;
+    font-size: 1rem;
 }
 
-.sidenav, .parent-section-1, .content-section-container {
+.sidenav,
+.parent-section-1,
+.content-section-container {
     z-index: 0;
     position: relative;
 }
 
-/* -------------------- */
-/* -------------------- */
-/* start parent section */
-/* -------------------- */
-/* -------------------- */
-
+/* Start parent section */
 .parent-section-1 {
     grid-template-columns: 1fr 2fr;
 }
-
 
 .child-section-1 {
     display: flex;
@@ -99,7 +93,7 @@ body {
     border-radius: 5rem;
     padding: 1rem;
     text-decoration: none;
-    font-size: 1.6rem;
+    font-size: 1rem;
     font-weight: bold;
     width: fit-content;
     display: block;
@@ -123,7 +117,7 @@ body {
 .sidenav a {
     display: block;
     color: #000000;
-    font-size: 1.2rem;    
+    font-size: 1.2rem;
     text-decoration: none;
 }
 
@@ -145,14 +139,9 @@ body {
     display: none;
 }
 
-/* -------------------- */
-/* -------------------- */
 /* End parent section */
-/* -------------------- */
-/* -------------------- */
-
 .content-section-container {
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 25vw 1fr;
 }
 
 .content-section {
@@ -175,7 +164,7 @@ body {
 .content-menu a {
     display: block;
     color: #000000;
-    font-size: 1.6rem;    
+    font-size: 1.5rem;
     text-decoration: none;
 }
 
@@ -198,7 +187,7 @@ body {
 }
 
 .content-child h2 {
-    font-size: 2.8rem;
+    font-size: 1.5rem;
     font-weight: 900;
     text-align: center;
     padding: 1rem;
@@ -207,14 +196,16 @@ body {
 }
 
 .content-child h3 {
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 .content-child h3 b {
     font-weight: 700;
 }
 
-.about, .about-numbers, .skill-item {
+.about,
+.about-numbers,
+.skill-item {
     grid-template-columns: 1fr 1fr;
 }
 
@@ -237,7 +228,7 @@ body {
     transform: translate(-50%, -50%);
     height: 80%;
     width: 1px;
-    border-left: 2px dashed #ffffff;
+    border-left: 0.2rem dashed #ffffff;
 }
 
 .has-border {
@@ -248,17 +239,17 @@ body {
     content: "";
     display: block;
     position: absolute;
-    bottom: 0%;
+    bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    height: 1px;
+    height: 0.1rem;
     width: 80%;
-    border-top: 2px dashed #ffffff;
-} 
+    border-top: 0.2rem dashed #ffffff;
+}
 
 .about-numbers div {
     color: #ffffff;
-    font-size: 1.6rem;
+    font-size: 1rem;
     font-weight: 500;
     display: flex;
     justify-content: center;
@@ -269,34 +260,34 @@ body {
 .about-numbers span {
     color: #fcbd33;
     font-weight: 500;
-    font-size: 6rem;
+    font-size: 3rem;
     display: block;
 }
 
 .about-content {
-    padding: 2.5rem;
+    padding: 4rem;
 }
 
 .about-content h4 {
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: 700;
 }
 
 .skill-item h4 {
-    font-size: 2.4rem;
+    font-size: 1.6rem;
     margin-bottom: 1rem;
 }
 
-/* start Gallery section */
+/* Start Gallery section */
 
 .box {
     text-align: center;
 }
 
 .btn {
-    margin-top: 10px;
+    margin-top: 1.6rem;
     display: inline-block;
-    padding: 10px 30px;
+    padding: 1.6rem 4rem;
     cursor: pointer;
     font-size: 2.5rem;
     text-transform: capitalize;
@@ -319,8 +310,8 @@ body {
 }
 
 .gallery .image-container {
-    gap: 1.5rem;
-    columns: 3 25rem;
+    gap: 1.6rem;
+    columns: 3 25vw;
 }
 
 .gallery .image-container img {
@@ -329,11 +320,11 @@ body {
     background-color: #ffffff;
     object-fit: cover;
     cursor: pointer;
-    margin-bottom: 1rem;
+    margin-bottom: 1.6rem;
 }
 
 .gallery .image-container img:hover {
-    transform: scale(.95);
+    transform: scale(0.95);
 }
 
 .box {
@@ -355,14 +346,14 @@ body {
     display: none;
     align-items: center;
     justify-content: center;
-    padding: 4rem 2rem;
+    padding: 10vw 2rem;
     overflow-y: scroll;
 }
 
 .image-popup img {
-    width: 60rem;
+    width: 60vw;
     cursor: pointer;
-    border: 1rem solid var(--white);
+    border: 1.6rem solid var(--white);
     background-color: var(--white);
 }
 
@@ -373,7 +364,6 @@ body {
 }
 
 /* Hamburger Menu */
-
 .hamburger-menu-wrapper {
     position: fixed;
     top: 0;
@@ -403,18 +393,18 @@ body {
     display: block;
     content: "";
     background: #000;
-    height: 0.5rem;
+    height: 1rem;
     position: absolute;
     width: 100%;
     transition: all 0.25s ease 0s;
 }
 
 .hamb-line:before {
-    top: 50%;
+    top: 2rem;
 }
 
 .hamb-line:after {
-    top: 85%;
+    top: 4.5rem;
 }
 
 .side-hamb-menu {
@@ -440,7 +430,7 @@ body {
 .hamburger-menu a {
     color: #000000;
     font-size: 1.6rem;
-    margin: 2rem 0;
+    margin: 1.6rem 0;
     text-align: center;
     text-decoration: none;
     opacity: 0;
@@ -460,17 +450,17 @@ body {
 
 .side-hamb-menu:checked ~ .hamb .hamb-line::before {
     transform: rotate(-45deg);
-    top: 50%;
+    top: 2rem;
 }
 
 .side-hamb-menu:checked ~ .hamb .hamb-line::after {
     transform: rotate(45deg);
-    top: 50%;
+    top: 2rem;
 }
 
 .side-hamb-menu:checked ~ .hamb .hamb-line::before,
 .side-hamb-menu:checked ~ .hamb .hamb-line::after {
-    top: 67%;
+    top: 3.3rem;
 }
 
 /* End Menu */
@@ -483,18 +473,18 @@ body {
     .about-numbers,
     .skill-item {
         display: grid;
-    } 
+    }
 
     .parent-section-1 {
         height: 100vh;
     }
 
     .child-section-1 {
-        padding: 0 5rem 0 9rem;
+        padding: 0 5vw 0 9vw;
     }
 
     .content-child {
-        padding: 3rem 15rem;
+        padding: 3rem 15vw;
     }
 
     .content-child h2 {
@@ -527,12 +517,12 @@ body {
 
     .side-menu {
         height: 100vh;
-        grid-template-rows: 40% 60%;
+        grid-template-rows: 40vh 1fr;
         padding: 0;
         grid-column: 1;
         position: sticky;
         top: 0;
-    }    
+    }
 
     .hamburger-menu-wrapper {
         display: none;
@@ -560,8 +550,8 @@ body {
     }
 
     .btn {
-        margin-top: 0px;
-        padding: 10px 20px;
+        margin-top: 0;
+        padding: 1.6rem 2rem;
         font-size: 1.6rem;
     }
 
@@ -575,6 +565,6 @@ body {
     height: 2rem;
 }
 
-.parapraph {
-    font-size: 1.6rem;
+.paragraph {
+    font-size: 1.3rem;
 }
