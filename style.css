@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
     font-family: 'Noto Sans TC', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
 }
 .sidenav, .parent-section-1, .content-section-container {
     z-index: 0;
@@ -48,7 +48,7 @@ body {
 /* -------------------- */
 
 .parent-section-1 {
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 
@@ -61,27 +61,27 @@ body {
     padding: 1rem;
 }
 .child-section-1 h1 {
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 .child-section-1 h1 .small {
-    font-size: 1.5rem;
+    font-size: 3rem;
     display: block;
 }
 .child-section-1 h1 .job-title {
-    font-size: 2rem;
+    font-size: 1.6rem;
     background: #fcbd33;
     width: fit-content;
     display: block;
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem 1rem;
 }
 .child-section-1 h1 .yellow {
     color: #fcbd33;
     font-family: 'Monoton', cursive;
-    font-weight: 250;
+    font-weight: 400;
 }
 
 .cta-btn {
@@ -90,7 +90,7 @@ body {
     border-radius: 5rem;
     padding: 1rem;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-weight: bold;
     width: fit-content;
     display: block;
@@ -114,7 +114,7 @@ body {
 .sidenav a {
     display: block;
     color: #000000;
-    font-size: 12px;    
+    font-size: 2rem;    
     text-decoration: none;
 }
 .sidenav a:hover {
@@ -159,7 +159,7 @@ body {
 .content-menu a {
     display: block;
     color: #000000;
-    font-size: 1.5rem;    
+    font-size: 2rem;    
     text-decoration: none;
 }
 .content-menu a:hover {
@@ -177,7 +177,7 @@ body {
     display: none;
 }
 .content-child h2 {
-    font-size: 1rem;
+    font-size: 3rem;
     font-weight: 900;
     text-align: center;
     padding: 1rem;
@@ -228,8 +228,8 @@ body {
 } 
 .about-numbers div {
     color: #ffffff;
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 2rem;
+    font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -238,8 +238,8 @@ body {
 }
 .about-numbers span {
     color: #fcbd33;
-    font-weight: 500;
-    font-size: 3rem;
+    font-weight: 700;
+    font-size: 5rem;
     display: block;
 }
 
@@ -275,12 +275,6 @@ body {
 
 .btn:hover {
 	color: #fcbd33;
-}
-
-
-.skill-icon {
-    width: 40px; /* Adjust the width to your desired size */
-    height: 40px; /* Adjust the height to your desired size */
 }
 
 .gallery {
@@ -431,6 +425,22 @@ body {
 .side-hamb-menu:checked ~ .hamb .hamb-line::after {
     top:33px;
 }
+
+/*-------------------*/
+/*-----new style-----*/
+/*-------------------*/
+.contact-img{
+    width: 20px; /* Adjust the width to your desired size */
+    height: 20px; /* Adjust the height to your desired size */
+}
+.parapraph{
+    font-size:1.3rem;
+}
+
+.skill-icon {
+    width: 40px; /* Adjust the width to your desired size */
+    height: 40px; /* Adjust the height to your desired size */
+}
 /*------------------*/
 /*-----End Menu-----*/
 /*------------------*/
@@ -471,7 +481,7 @@ body {
         display: none;
     }
     .hero-img {
-        background-image: url(./img/momodou.jpg);
+        background-image: url(/img/momodou.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -513,9 +523,3 @@ body {
  }
 }  
 
-.contact-img{
-    width: 20px; /* Adjust the width to your desired size */
-    height: 20px; /* Adjust the height to your desired size */
-}
-.parapraph{
-    font-size:1.3rem;}
