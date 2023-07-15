@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
     font-family: 'Noto Sans TC', sans-serif;
-    font-size: 1rem;
+    font-size: 62.5%; /* 1rem = 10px */
 }
 
 .sidenav,
@@ -93,7 +93,7 @@ body {
     border-radius: 5rem;
     padding: 1rem;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-weight: bold;
     width: fit-content;
     display: block;
@@ -117,7 +117,7 @@ body {
 .sidenav a {
     display: block;
     color: #000000;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     text-decoration: none;
 }
 
@@ -164,7 +164,7 @@ body {
 .content-menu a {
     display: block;
     color: #000000;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     text-decoration: none;
 }
 
@@ -187,12 +187,12 @@ body {
 }
 
 .content-child h2 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 900;
     text-align: center;
     padding: 1rem;
     margin: 3rem 0;
-    border: 0.5rem dotted #000000;
+    border: 0.1rem dotted #000000;
 }
 
 .content-child h3 {
@@ -227,7 +227,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     height: 80%;
-    width: 1px;
+    width: 0.1rem;
     border-left: 0.2rem dashed #ffffff;
 }
 
@@ -249,7 +249,7 @@ body {
 
 .about-numbers div {
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-weight: 500;
     display: flex;
     justify-content: center;
