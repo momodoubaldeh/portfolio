@@ -1,3 +1,4 @@
+
 let galleryImages = document.querySelectorAll('.image-container img');
 let imagePop = document.querySelector('.image-popup');
 
