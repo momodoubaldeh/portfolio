@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
     font-family: 'Noto Sans TC', sans-serif;
-    font-size: 10px;
+    font-size: 20px;
 }
 .sidenav, .parent-section-1, .content-section-container {
     z-index: 0;
