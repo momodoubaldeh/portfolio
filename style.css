@@ -291,12 +291,12 @@ body {
 
 .gallery .image-container {
 	gap: 15px;
-	columns: 3 350px;
+	columns: 3 300px;
 }
 
 .gallery .image-container img {
 	break-inside: avoid;
-	width: 100%;
+	width: 90%;
 	background-color: #ffffff;
 	object-fit: cover;
 	cursor: pointer;
@@ -330,7 +330,7 @@ body {
 }
 
 .image-popup img {
-	width: 600px;
+	width: 700px;
 	cursor: pointer;
 	border: 10px solid var(--white);
 	background-color: var(--white);
