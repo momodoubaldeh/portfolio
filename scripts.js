@@ -1,4 +1,3 @@
-
 let galleryImages = document.querySelectorAll('.image-container img');
 let imagePop = document.querySelector('.image-popup');
 
@@ -64,3 +63,5 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+
