@@ -1,4 +1,23 @@
 .content-child h2 {
-    font-size: 7rem;
-    padding: 3rem;
+    font-size: 4.5rem;
+    padding: 1.5rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .child-section-1 h1 {
+        font-size: 4rem;
+    }
+
+    .child-section-1 h1 .small {
+        font-size: 3rem;
+    }
+
+    .cta-btn {
+        font-size: 1.4rem;
+    }
+
+    .content-child h2 {
+        font-size: 3rem;
+        padding: 1rem;
+    }
 }
