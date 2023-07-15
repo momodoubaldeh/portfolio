@@ -481,7 +481,7 @@ body {
         display: none;
     }
     .hero-img {
-        background-image: url(/__MACOSX/img/momodou.jpg);
+        background-image: url(/img/momodou.jpg);
         background-size: cover;
         background-position: center;
     }
